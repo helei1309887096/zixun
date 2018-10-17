@@ -1,0 +1,99 @@
+ul,li{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+div.content div.right div.right-main .subtance{
+	margin:20px;
+}
+div.content div.right div.right-main .subtance .main-top{
+	height: 250px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+div.content div.right div.right-main .subtance .main-top .flex{
+	width: 23%;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li{
+	height: 70px;
+	background-color: #fff;
+	list-style: none;
+	overflow: hidden;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li > span{
+	display: inline-block;
+	margin-left: 20px;
+	float: left;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li > span:first-child{
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li > span:last-child{
+	margin-top: 14px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li > span:last-child >span:first-child{
+	font-size: 20px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li > span:last-child >span:last-child{
+	font-size: 10px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li:first-child > span:first-child{
+	background-color: yellow;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li:nth-child(2) > span:first-child{
+	background-color: lightblue;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li:last-child > span:first-child{
+	background-color: #F7A20D;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li span img{
+	width: 30px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-left ul li:not(:first-child){
+	margin-top: 20px;
+}
+div.content div.right div.right-main .subtance .main-top .flex-middle{
+	width: 46%;
+	background-color: #fff;
+}
+div.content div.right div.right-main .subtance .main-top .flex-right ul li{
+	height: 115px;
+	background-color: #fff;
+	list-style: none;
+	position: relative;
+}
+div.content div.right div.right-main .subtance .main-top .flex-right ul li img{
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	animation:mydog 5s linear infinite;
+}
+@keyframes mydog{
+	0%,100%{
+		left: 0;
+	}
+	50%{
+		left: 86px;
+	}
+}
+div.content div.right div.right-main .subtance .main-top .flex-right ul li:not(:first-child){
+	margin-top: 20px;
+}
+div.content div.right div.right-main .subtance .main-bottom{
+	height: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+div.content div.right div.right-main .subtance .main-bottom .flex2{
+	width: 48%;
+	background-color: #fff;
+}

@@ -1,0 +1,96 @@
+
+div.content div.right{
+	position: relative;
+}
+div.content div.right div.alert{
+	position: absolute;
+	left: 30%;
+	top:30%;
+	width: 200px;
+	height: 120px;
+	font-size: 20px;
+	color:#fff;
+	background-color: rgba(0,120,215,0.7);
+	line-height: 80px;
+	border-radius: 20px;
+	text-align: center;
+	display: none;
+	z-index: 100;
+}
+div.content div.right div.right-main .subtance{
+	margin:20px;
+	height: 700px;
+	background-color: #fff;
+}
+div.content div.right div.right-main .subtance #find{
+	cursor:pointer;
+	color:red;
+}
+div.content div.right div.right-main .subtance .btn{
+	background-color: #68B828;
+	margin: 10px;
+	color: #fff;
+}
+div.content div.right div.right-main .subtance .btn.deleteAll{
+	background-color: #ee0000;
+}
+div.content div.right div.right-main .subtance .divtable{
+	margin-right: 20px;
+	height: 500px;
+	overflow: scroll;
+	position: relative;
+}
+div.content div.right div.right-main .subtance .divtable table{
+	table-layout: fixed;
+}
+div.content div.right div.right-main .subtance .divtable table tr td {
+	text-align: center;
+	height: 30px;
+	width: 80px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+div.content div.right div.right-main .subtance .divtable table tr td span{
+	padding: 0 5px;
+	cursor: pointer;
+}
+div.content div.right div.right-main .subtance .divtable  ul li{
+	float: left;
+	list-style: none;
+	width: 80px;
+	height: 30px;
+	padding: 0 10px;
+	background-color: lightblue;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 20px;
+	color:#ff4400;
+	border-radius: 15px;
+	cursor:pointer;
+}
+div.content div.right div.right-main .subtance .divtable  ul.informa{
+	margin:0;
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
+}
+div.content div.right div.right-main .subtance .divtable  ul.informa li.page{
+	font-size: 18px;
+}
+div.content div.right div.right-main .subtance .modal-body label span img{
+	width: 150px;
+	cursor: pointer;
+}
+
+div.content div.right div.right-main .subtance .divtable .getPage{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	width: 250px;
+	height: 30px;
+}
+div.content div.right div.right-main .subtance .divtable .getPage input{
+	width: 50px;
+	text-indent: 1em;
+}

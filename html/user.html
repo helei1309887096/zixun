@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户管理</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/column.css">
+	<link rel="stylesheet" type="text/css" href="../css/user.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../iconFont/iconfont.css">
+	<script type="text/javascript" src="../jquery-3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/user.js"></script>
+	
+</head>
+<body>
+	<div class="container content">
+		<div class="row">
+			<!-- 左侧栏目 -->
+			<div class="col-xs-2 left">
+				<!-- 左侧头部 -->
+				<div class="left-header">
+					<img src="../images/logo.png" alt="图片不见了">
+					<a href="#">看点资讯</a>
+				</div>
+				<!-- 左侧目录 -->
+				<div class="left-body">
+					<ul>
+						<li>
+							<i class="iconfont icon-shouye"></i>
+							<a href="../index.html">首页</a>
+							<i class="iconfont icon-kuozhan"></i>
+						</li>
+						<li>
+							<i class="iconfont icon-liebiao"></i>
+							<a href="./column.html">栏目管理</a>
+							<i class="iconfont icon-kuozhan"></i>
+						</li>
+						<li>
+							<i class="iconfont icon-zixun"></i>
+							<a href="./information.html">资讯管理</a>
+							<i class="iconfont icon-kuozhan"></i>
+						</li>
+						<li>
+							<i class="iconfont icon-ai-user"></i>
+							<a href="./user.html">用户管理</a>
+							<i class="iconfont icon-kuozhan"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 右边栏目 -->
+			<div class="col-xs-10 right">
+				<div class="right-header">
+					<i class="iconfont icon-liebiao1"></i>
+					<i class="iconfont icon-laba">
+						<p>4</p>
+					</i>
+					<div class="headPeoper">
+						<img src="../images/touxiang.png" alt="">
+						<span>小兔子</span>
+					</div>
+				</div>
+				<div class="alert">操作成功</div>
+				<div class="right-main">
+					<div class="subtance">
+						<button class="btn" data-toggle="modal" data-target="#myModal">新增</button>
+						<!-- 模态框 -->
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">
+											&times;
+										</button>
+										<h4 class="modal-title">
+											添加用户
+										</h4>
+									</div>
+								<div class="modal-body addUser">
+									<p>用户名</p>
+									<input type="text">
+									<p>密码</p>
+									<input type="password">
+									<p>重复密码</p>
+									<input type="password">
+									<p>真实姓名</p>
+									<input type="text">
+									<p>邮箱</p>
+									<input type="email">
+									<p>头像地址</p>
+									<input type="file" class="filePic">
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+									</button>
+									<button type="button" class="btn btn-primary submit">
+										确认
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+						<ul class="liParent">
+							<li class="clone">
+								<div class="deleteUser">x</div>
+								<div class="png">
+									<img src="../images/user.png" title="点击头像可更换图片" alt="图片不见了">
+									<div>
+										<input type="file" value="选择文件">
+									</div>
+								</div>
+								<table>
+									<tr>
+										<td>用户名</td>
+										<td>vicky</td>
+									</tr>
+									<tr>
+										<td>真实姓名</td>
+										<td>乔美丽</td>
+									</tr>
+									<tr>
+										<td>email</td>
+										<td>qiaoml@briup.com</td>
+									</tr>
+									<tr>
+										<td>状态</td>
+										<td>
+											<div class="switch">
+												<p class="move"></p>
+												<span class="close">关闭</span>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

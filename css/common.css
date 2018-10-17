@@ -1,0 +1,127 @@
+a{
+	text-decoration:none;
+	color: #333;
+}
+div.content{
+	width: 1100px;
+	color: #666;
+	font-size: 14px;
+	border:1px solid #ccc;
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left:50%;
+	margin-left: -550px;
+}
+@media (max-width: 1110px){
+	div.content{
+		left: auto;
+		margin-left: 0;
+	}
+}
+div.content div.row{
+	height: 100%;
+}
+div.content div.left{
+	background-color: #282830;
+	height: 100%;
+	padding: 0;
+}
+div.content div.left .left-header{
+	background-color: #3D556D;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color:#fff;
+	cursor:pointer;
+}
+div.content div.left .left-header img{
+	height: 36px;
+}
+div.content div.left .left-header a{
+	padding: 0 10px;
+	color: #fff;
+}
+div.content div.left div.left-body{
+	text-align: left;
+	color: #fff;
+	width: 90%;
+	margin:50px auto;
+}
+div.content div.left div.left-body ul{
+	padding: 0;
+	list-style: none;
+}
+div.content div.left div.left-body ul li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #333;
+	cursor:pointer;
+}
+div.content div.left div.left-body ul li a{
+	color: #fff;
+	padding-left: 15px;
+	display: inline-block;
+	width: 110px;
+}
+div.content div.right{
+	background-color: #F0F0F0;
+	height: 100%;
+	padding: 0;
+}
+div.content div.right .right-header{
+	height: 38px;
+	background-color: #fff;
+	line-height: 38px;
+}
+div.content div.right .right-header i{
+	font-size: 22px;
+	margin-left: 10px;
+	cursor:pointer;
+}
+div.content div.right .right-header i:nth-child(2){
+	padding-left: 20px;
+	position: relative;
+	display: inline-block;
+}
+div.content div.right .right-header i:nth-child(2) p{
+	position: absolute;
+	top:2px;
+	right: -2px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	font-size: 14px;
+	background-color: #f00;
+	color: #fff;
+	line-height: 16px;
+	text-align: center;
+}
+div.content div.right .right-header .headPeoper{
+	float: right;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+}
+div.content div.right .right-header .headPeoper img{
+	height: 34px;
+	border-radius:50%;
+	margin-right: 10px;
+}
+div.content div.right .right-header .headPeoper span:after{
+	content: '>';
+	margin-left: 5px;
+}
+
+/*模态框*/
+div.content div.right div.right-main .subtance .modal.fade{
+	left: auto;
+}
+div.content div.right div.right-main .subtance .modal.fade .modal-dialog{
+	width:300px;
+	margin-top: 0;
+	height: 100%;
+}
+div.content div.right div.right-main .subtance .modal.fade .modal-content{
+	height: 100%;
+}

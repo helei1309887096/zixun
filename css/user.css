@@ -1,0 +1,115 @@
+
+div.content div.right div.right-main .subtance{
+	margin:20px;
+	height: 630px;
+	background-color: #fff;
+	overflow: scroll;
+}
+div.content div.right div.right-main .subtance img{
+	width: 100px;
+	height: 80px;
+	border-radius:50%;
+	cursor: pointer;
+}
+div.content div.right div.right-main .subtance .btn{
+	background-color: #68B828;
+	margin: 10px;
+	color: #fff;
+}
+div.content div.right div.right-main .subtance ul li{
+	width: 200px;
+	height: 260px;
+	border:1px solid #ccc;
+	padding: 0;
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 1px #ccc,-1px -1px 1px #ccc;
+	position: relative;
+	background-image: url(../images/27.jpg);
+	background-size: 225px 260px;
+	color:green;
+}
+div.content div.right div.right-main .subtance ul li:last-child{
+	margin-bottom: 100px;
+}
+div.content div.right div.right-main .subtance ul li:first-child{
+	display: none;
+}
+div.content div.right div.right-main .subtance ul li div.deleteUser{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	font-size: 28px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 30px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+div.content div.right div.right-main .subtance ul li div.deleteUser:hover{
+	color: orange;
+}
+div.content div.right div.right-main .subtance ul li div.png{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	position: relative;
+}
+div.content div.right div.right-main .subtance ul li div.png > div{
+	position: absolute;
+	width: 72px;
+	height: 25px;
+	right: 11px;
+	top:57px;
+	display: none;
+}
+div.content div.right div.right-main .subtance ul li div.png > div input{
+	width:60px;
+}
+div.content div.right div.right-main .subtance ul li table{
+	margin-left: 20px;
+	width: 180px;
+	table-layout: fixed;
+}
+div.content div.right div.right-main .subtance ul li table tr td{
+	width: 100px;
+	height: 30px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+div.content div.right div.right-main .subtance ul li table tr td:first-child{
+	width: 70px;
+}
+div.content div.right div.right-main .subtance ul li table tr td div.switch{
+	width: 60px;
+	height: 26px;
+	background-color: #ccc;
+	border-radius: 15px;
+	position: relative;
+	cursor:pointer;
+}
+div.content div.right div.right-main .subtance ul li table tr td div.switch p{
+	width: 20px;
+	height: 20px;
+	border-radius:50%;
+	background-color: #fff;
+	position: absolute;
+	top:3px;
+	left: 3px;
+	transition: 0.3s;
+}
+div.content div.right div.right-main .subtance ul li table tr td div.switch span{
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 20px;
+	left: 27px;
+	top:6px;
+	font-size: 14px;
+}
+
